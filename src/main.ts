@@ -1,24 +1,19 @@
+import App from "@/App.vue";
+import PrimeVue from "primevue/config";
+import { createApp } from "vue";
+import { router } from "@/Routing";
 
-import { createApp } from 'vue';
-import App from './App.vue'
-
-import PrimeVue from 'primevue/config';
-
-import Lara from './presets/lara'
-
-import {router} from './Routing'
-
-import 'primeicons/primeicons.css'
-import "./style.css"
-import './assets/base.css'
+import Aura from "@/presets/aura";
+import "@/assets/base.css";
+import "@/style.css";
+import "primeicons/primeicons.css";
 
 const app = createApp(App);
 
 app.use(PrimeVue, {
-    unstyled: true,
-    pt: Lara
+  unstyled: true,
+  pt: Aura,
 });
 
-app.use(router)
-
-app.mount('#app')
+app.use(router);
+app.mount("#app");

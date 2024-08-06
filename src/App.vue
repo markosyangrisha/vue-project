@@ -1,10 +1,10 @@
 <template>
-  <MenuBar/>
-   <FormLayout/>
+  <MenuBar />
+  <FormLayout />
 </template>
 
-<script setup>
-  import MenuBar from "./components/MenuBar/MenuBar.vue";
-  import FormLayout from "./latout/FormLayout.vue";
+<script setup lang="ts">
+import MenuBar from "@/components/MenuBar/MenuBar.vue";
+import FormLayout from "@/layouts/FormLayout.vue";
 </script>
 

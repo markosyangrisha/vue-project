@@ -1,0 +1,8 @@
+{
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  // Wrapping
+  "editor.wordWrap": "off",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 500
+}

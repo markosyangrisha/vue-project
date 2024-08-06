@@ -9,5 +9,14 @@
     "strict": true,
     "noEmit": true
   },
-  "include": ["vite.config.ts"]
+  /* Aliases */
+  "baseUrl": ".",
+  "paths": {
+    "@/*": [
+      "./src/*"
+    ]
+  },
+  "include": [
+    "vite.config.ts"
+  ]
 }
